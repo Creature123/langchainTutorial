@@ -21,7 +21,7 @@ llm = ChatGroq(
 
 messages = [
     ("system", "You are a helpful translator. Translate the user sentence to French."),
-    ("human", "I love programming."),
+    ("human", "I love programming.s"),
 ]
 
 print(llm.invoke(messages).content)
